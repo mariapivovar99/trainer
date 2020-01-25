@@ -1,0 +1,26 @@
+@media only screen and (max-width: 767px) {
+    header{
+        position: relative;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .logo{
+        max-width: 130px;
+        float: none;
+    }
+    .btn{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    header form{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+}
