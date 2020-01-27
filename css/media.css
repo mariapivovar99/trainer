@@ -1,26 +1,194 @@
-@media only screen and (max-width: 767px) {
-    header{
-        position: relative;
-        padding: 15px;
-        box-sizing: border-box;
+@media only screen and (max-width: 1024px){
+    .container{
+        max-width: 1024px;
+        padding: 0 30px;
     }
+    header form{
+        background-color: #ebebeb;
+        width: 150px;
+        height: 40px;
+        float: right;
+    }
+    header .logo{
+        max-width: 250px;
+    }
+    header form input{
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    header form button{
+        height: 40px;
+    }
+    header .btn{
+        min-width: 150px;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    .border{
+        padding-bottom: 21px;
+    }
+    header nav a{
+        margin-right: 7px;
+        margin-left: 7px;
+        font-size: 22px;
+    }
+    header nav ul li:hover{
+        border-bottom: solid 3px #fa090a;
+    }
+    footer article ul li a{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .container{
+        max-width: 992px;
+        padding: 0 30px;
+    }
+    header form{
+        width: 200px;
+        height: 35px;
+    }
+    header .btn{
+        line-height: 35px;
+    }
+    header .logo{
+        max-width: 230px;
+    }
+    header nav a{
+        font-size: 20px;
+    }
+    footer article ul li a{
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .container{
+        max-width: 767px;
+        padding: 0 30px;
+    }
+    .border{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    header form{
+        width: 200px;
+        height: 35px;
+        margin-top: 0;
+    }
+    header .btn{
+        min-width: 0;
+        max-width: 35px;
+        height: 35px;
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    header .logo{
+        max-width: 200px;
+    }
+    header nav a{
+        margin-right: 7px;
+        margin-left: 7px;
+        font-size: 20px;
+    }
+    header .soc_icon{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+        padding: 2px;
+        font-size: 22px;
+    }
+    .bg_img h1{
+        font-size: 35px;
+        line-height: 35px;
+        position: absolute;
+        bottom: 0;
+    }
+    section p{
+        line-height: 25px;
+        padding-top: 35px;
+    }
+    .dark form input{
+        line-height: 35px;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-right: 0;
+        font-size: 17px;
+    }
+    .dark form button{
+        width: 309px;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 48px;
+    }
+    footer .soc_icon{
+        margin-right: 15px;
+        margin-top: 35px;
+        font-size: 22px;
+    }
+    footer article a img{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    footer article ul li{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    footer article ul li a{
+        margin-left: 0;
+        margin-bottom: 65px;
+    }
+}
+@media only screen and (max-width: 414px){
     .logo{
-        max-width: 130px;
+        max-width: 100px;
         float: none;
     }
-    .btn{
+    header .btn{
         float: none;
         width: 100%;
-        margin-left: 0;
+        margin-left: 5px;
+        max-width: 30px;
+        height: 30px;
     }
     header form{
         width: 100%;
         float: none;
         margin: auto;
     }
+    header nav{
+        float: none;
+    }
     header nav ul li{
         display: block;
         float: none;
         text-align: center;
     }
+    header .soc_icon{
+        display: none;
+        float: none;
+    }
+    footer{
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    footer article ul{
+        display: inline;
+        margin-top: 25px;
+    }
+    footer .soc_icon{
+        margin: 0 0 25px 10px;
+    }
+}
+@media only screen and (max-width: 375px){
+
+}
+@media only screen and (max-width: 360px){
+
 }
