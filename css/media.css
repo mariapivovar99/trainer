@@ -104,8 +104,8 @@
         font-size: 22px;
     }
     .bg_img h1{
-        font-size: 35px;
-        line-height: 35px;
+        font-size: 32px;
+        line-height: 32px;
         position: absolute;
         bottom: 0;
     }
@@ -145,16 +145,17 @@
     }
 }
 @media only screen and (max-width: 414px){
-    .logo{
-        max-width: 100px;
-        float: none;
+    header{
+        position: relative;
+        top: 0;
     }
     header .btn{
         float: none;
         width: 100%;
-        margin-left: 5px;
-        max-width: 30px;
-        height: 30px;
+        margin-left: 6px;
+        max-width: 26px;
+        height: 26px;
+        padding: 0 0 2px 5px;
     }
     header form{
         width: 100%;
@@ -173,6 +174,20 @@
         display: none;
         float: none;
     }
+    .bg_img h1{
+        font-size: 32px;
+        line-height: 32px;
+        position: absolute;
+        bottom: 21px;
+    }
+    .dark form input{
+        min-width: 290px;
+        font-size: 14px;
+    }
+    .dark form button{
+        width: 290px;
+        margin-left: 0;
+    }
     footer{
         text-align: center;
         margin-right: 0;
@@ -187,8 +202,13 @@
     }
 }
 @media only screen and (max-width: 375px){
+    header .logo{
+        max-width: 180px;
+    }
 
 }
 @media only screen and (max-width: 360px){
-
+    header .logo{
+        max-width: 170px;
+    }
 }
